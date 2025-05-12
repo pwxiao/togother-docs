@@ -1,4 +1,4 @@
-name: Build and Deploy MkDocs
+name: Build MkDocs
 
 on:
   push:
@@ -32,4 +32,5 @@ jobs:
       
       - name: Build MkDocs
         run: mkdocs build
+
         
