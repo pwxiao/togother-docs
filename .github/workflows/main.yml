@@ -1,4 +1,6 @@
-name: Build MkDocs
+name: Build MkDocs and Deploy to Vercel
+
+# 此工作流验证 MkDocs 是否能正确构建，并在构建成功后触发 Vercel 部署
 
 on:
   push:
@@ -10,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -32,5 +34,15 @@ jobs:
       
       - name: Build MkDocs
         run: mkdocs build
+        
+      - name: Install Vercel CLI
+        run: npm install --global vercel@latest
+        
+      - name: Deploy to Vercel
+        run: |
+          vercel --token ${{ secrets.VERCEL_TOKEN }} --prod
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
         
