@@ -6,15 +6,15 @@
 
 ## Windows版本 🆕
 
-[Github下载](https://github.com/pwxiao/togother-docs/releases/tag/update)
-[123云盘下载](https://www.123684.com/s/5lHyTd-mzRHv)
+[Github下载](https://github.com/pwxiao/togother-docs/releases/tag/win2.0)
+[123云盘下载](https://www.123684.com/s/5lHyTd-AVRHv)
 
 
 ## 安卓版本 {#安卓版本}
 
 支持所有Android设备
 
-[立即下载 v2.1.7](http://oss.ahhl.cn/apps/v2.1.7.apk)
+[立即下载 v2.2.0](http://oss.ahhl.cn/apps/v2.2.0.apk)
 
 ## iOS版本 (App Store) {#ios版本-app-store}
 
