@@ -10,6 +10,10 @@
 [123云盘下载](https://www.123684.com/s/5lHyTd-AVRHv)
 
 
+## mac版本 🆕
+
+[123云盘下载](https://www.123684.com/s/5lHyTd-wVRHv)
+
 ## 安卓版本 {#安卓版本}
 
 支持所有Android设备
