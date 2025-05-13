@@ -20,14 +20,17 @@
   - 🔄 WebDAV/Alist
 - **🔍 丰富的搜索功能** - 强大的搜索引擎，帮你找到想看的内容
 - **🎮 播放控制功能**
-  - ⏩ 最高支持 5 倍速播放
-  - 💬 弹幕互动
+  - ⏩ 最高支持 4 倍速播放
+  - 💬 弹幕功能
   - 🔊 音轨切换
   - 💻 字幕设置
 - **📱 画中画模式** - 支持后台播放和画中画观看
 - **📺 投屏功能** - 支持投屏到大屏设备（会员专享）
 - **💾 影片收藏** - 云端收藏喜爱的影片，随时随地观看
 - **📊 观看历史** - 自动记录观看进度，无缝续播
+- **🔍 视频解析功能** - 支持解析各大视频平台（爱奇艺、优酷等）的视频链接
+- **🕵️ 视频嗅探功能** - 智能分析网页中的视频资源，提取视频源地址
+- **📡 直播解析功能** - 获取抖音和哔哩哔哩平台的直播流，支持创建直播观看房间
 
 ## 📈 版本历史
 
@@ -38,8 +41,40 @@
 - 📱 Android
 - 📱 iOS
 - 🖥️ windows
-- 🖥️ mac（即将上线）
+- 🖥️ mac
 
+
+## 📸 应用截图
+
+<div align="center">
+  <!-- 宽屏截图 -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-bottom: 20px;">
+    <img src="docs/assets/screenshots/landscape (1).png" alt="宽屏截图1" width="300" style="border-radius: 12px;" />
+    <img src="docs/assets/screenshots/landscape (2).png" alt="宽屏截图2" width="300" style="border-radius: 12px;" />
+    <img src="docs/assets/screenshots/landscape (3).png" alt="宽屏截图3" width="300" style="border-radius: 12px;" />
+  </div>
+  
+  <!-- 竖屏截图 -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 15px;">
+    <img src="docs/assets/screenshots/protrait (1).jpg" alt="应用截图1" width="160" style="border-radius: 12px;" />
+    <img src="docs/assets/screenshots/protrait (2).jpg" alt="应用截图2" width="160" style="border-radius: 12px;" />
+    <img src="docs/assets/screenshots/protrait (3).jpg" alt="应用截图3" width="160" style="border-radius: 12px;" />
+    <img src="docs/assets/screenshots/protrait (4).jpg" alt="应用截图4" width="160" style="border-radius: 12px;" />
+  </div>
+  
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 15px;">
+    <img src="docs/assets/screenshots/protrait (5).jpg" alt="应用截图5" width="160" style="border-radius: 12px;" />
+    <img src="docs/assets/screenshots/protrait (6).jpg" alt="应用截图6" width="160" style="border-radius: 12px;" />
+    <img src="docs/assets/screenshots/protrait (7).jpg" alt="应用截图7" width="160" style="border-radius: 12px;" />
+    <img src="docs/assets/screenshots/protrait (8).jpg" alt="应用截图8" width="160" style="border-radius: 12px;" />
+  </div>
+  
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 15px;">
+    <img src="docs/assets/screenshots/protrait (9).jpg" alt="应用截图9" width="160" style="border-radius: 12px;" />
+    <img src="docs/assets/screenshots/protrait (10).jpg" alt="应用截图10" width="160" style="border-radius: 12px;" />
+    <img src="docs/assets/screenshots/protrait (11).jpg" alt="应用截图11" width="160" style="border-radius: 12px;" />
+  </div>
+</div>
 
 ## ⚙️ 技术特点
 
