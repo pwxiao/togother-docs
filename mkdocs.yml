@@ -71,6 +71,7 @@ nav:
       - 视频解析: guide/video_analyse.md
       - 视频嗅探: guide/video_sniffer.md
       - 直播解析: guide/live_parser.md
+      - 动漫搜索: guide/anime_search.md
   - 帮助中心:
     - 常见问题: help.md
     - 搜索引擎帮助: search_engine_help.md
