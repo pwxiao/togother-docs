@@ -6,13 +6,12 @@
 
 ## Windows版本 🆕
 
-[Github下载](https://github.com/pwxiao/togother-docs/releases/tag/win2.0)
-[123云盘下载](https://www.123684.com/s/5lHyTd-rVRHv)
+[123云盘下载](https://www.123684.com/s/5lHyTd-uVRHv)
 
 
 ## mac版本 🆕
 
-[123云盘下载](https://www.123684.com/s/5lHyTd-wVRHv)
+[123云盘下载](https://www.123684.com/s/5lHyTd-UVRHv)
 
 ## 安卓版本 {#安卓版本}
 
