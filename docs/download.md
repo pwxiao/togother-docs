@@ -6,12 +6,12 @@
 
 ## Windows版本 🆕
 
-[123云盘下载](https://www.123684.com/s/5lHyTd-uVRHv)
+[123云盘下载](https://www.123684.com/s/5lHyTd-fjRHv)
 
 
 ## mac版本 🆕
 
-[123云盘下载](https://www.123684.com/s/5lHyTd-UVRHv)
+[123云盘下载](https://www.123684.com/s/5lHyTd-BjRHv)
 
 ## 安卓版本 {#安卓版本}
 
