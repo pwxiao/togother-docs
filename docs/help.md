@@ -6,8 +6,24 @@
 
 以下是如何在iOS设备上使用"一起看"App的指南：
 
+ios版分为两个版本：
+
+## 商店版
+[App Store下载](https://apps.apple.com/us/app/一起看-异地同步观影神器/id6742242273)
+
+
+## 测试版
+
+[加入TestFlight测试](https://testflight.apple.com/join/xk6vZNpD) 
+
+
+
+
+
 !!! note "注意"
-    iOS版本目前处于测试阶段，你需要使用testflight安装，才能使用。testflight公测链接：[https://testflight.apple.com/join/xk6vZNpD](https://testflight.apple.com/join/xk6vZNpD)
+    测试版需要使用testflight安装，才能使用
+    商店版更新较慢，并且没有在国区上架
+
 
 ## 激活iOS版本全部功能
 
@@ -71,4 +87,4 @@
 
 **问：为什么我不能创建房间了？**
 
-答：如果创建房间时遇到400错误，可能是因为视频链接不是直链或者链接已失效。请尝试使用有效的视频直链地址。 
+答：如果创建房间时遇到400错误，说明您不是会员，并且之前已经创建了15个私密房间。
