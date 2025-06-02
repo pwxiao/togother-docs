@@ -17,7 +17,13 @@
 
 支持所有Android设备
 
-[立即下载 v2.2.4](http://oss.ahhl.cn/apps/v2.2.4.apk)
+[立即下载 v2.2.4](http://oss.ahhl.cn/apps/v2.2.82.apk)
+
+## iOS TestFlight 公测版 {#ios-testflight-公测版}
+
+无需美区账号，直接安装测试版
+
+[加入TestFlight测试](https://testflight.apple.com/join/xk6vZNpD) 
 
 ## iOS版本 (App Store) {#ios版本-app-store}
 
@@ -25,9 +31,5 @@
 
 [App Store下载](https://apps.apple.com/us/app/一起看-异地同步观影神器/id6742242273)
 
-## iOS TestFlight 公测版 {#ios-testflight-公测版}
 
-无需美区账号，直接安装测试版
-
-[加入TestFlight测试](https://testflight.apple.com/join/xk6vZNpD) 
 
