@@ -4,20 +4,20 @@
 
 
 
-## Windows版本 （5月30日更新）
+## Windows版本 （6月6日更新）
 
-[123云盘下载](https://www.123684.com/s/5lHyTd-EoDHv)
+[123云盘下载](https://www.123684.com/s/5lHyTd-JxDHv)
 
 
-## mac版本 🆕（5月30日更新）
+## mac版本 🆕（6月6日更新）
 
-[123云盘下载](https://www.123684.com/s/5lHyTd-koDHv)
+[123云盘下载](https://www.123684.com/s/5lHyTd-IxDHv)
 
 ## 安卓版本 {#安卓版本}
 
 支持所有Android设备
 
-[立即下载 v2.2.4](http://oss.ahhl.cn/apps/v2.2.82.apk)
+[立即下载 v2.2.91](http://oss.ahhl.cn/apps/v2.2.91.apk)
 
 ## iOS TestFlight 公测版 {#ios-testflight-公测版}
 
