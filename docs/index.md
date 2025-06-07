@@ -5,13 +5,8 @@
 <div align="center">
   <img src="assets/logo.png" alt="一起看 Logo" width="200" height="200" />
 </div>
-
-<div style="text-align: center; padding: 10px; margin: 10px 0; background-color: #f5f5f5; border-radius: 5px;">
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  <span id="busuanzi_container_site_pv" style="font-size: 14px; color: #666;">
-    本站总访问量 <span id="busuanzi_value_site_pv" style="font-weight: bold; color: #1976D2;"></span> 次
-  </span>
-</div>
+## 宣传视频
+<iframe width="100%" height="500" src="//player.bilibili.com/player.html?isOutside=true&aid=114085890887269&bvid=BV1zEXDY7E5E&cid=30305226050&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 
 ## 📱 项目简介
@@ -113,4 +108,12 @@
 
 <div align="center">
   <p>Copyright © 2025 一起看团队</p>
+</div>
+
+
+<div style="text-align: center; padding: 10px; margin: 10px 0; background-color: #f5f5f5; border-radius: 5px;">
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <span id="busuanzi_container_site_pv" style="font-size: 14px; color: #666;">
+    本站总访问量 <span id="busuanzi_value_site_pv" style="font-weight: bold; color: #1976D2;"></span> 次
+  </span>
 </div>

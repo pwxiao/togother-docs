@@ -23,7 +23,14 @@
 
 无需美区账号，直接安装测试版
 
-[加入TestFlight测试](https://testflight.apple.com/join/xk6vZNpD) 
+[加入TestFlight测试](https://testflight.apple.com/join/xk6vZNpD)  
+
+??? tip "不会使用安装iOS版本？查看视频"
+    <video width="100%" controls>
+        <source src="../assets/video/ios.mp4" type="video/mp4">
+        您的浏览器不支持视频播放。
+    </video>
+    
 
 ## iOS版本 (App Store) {#ios版本-app-store}
 
