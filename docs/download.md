@@ -17,7 +17,7 @@
 
 支持所有Android设备
 
-[立即下载 v2.2.91](http://oss.ahhl.cn/apps/v2.2.91.apk)
+[立即下载 v2.2.91](http://oss.ahhl.cn/apps/v2.3.1.apk)
 
 ## iOS TestFlight 公测版 {#ios-testflight-公测版}
 
