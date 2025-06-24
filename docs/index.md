@@ -64,10 +64,10 @@
   
   <!-- 竖屏截图 -->
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 15px;">
-    <img src="docs/assets/screenshots/protrait (1).jpg" alt="应用截图1" width="160" style="border-radius: 12px;" />
-    <img src="docs/assets/screenshots/protrait (2).jpg" alt="应用截图2" width="160" style="border-radius: 12px;" />
-    <img src="docs/assets/screenshots/protrait (3).jpg" alt="应用截图3" width="160" style="border-radius: 12px;" />
-    <img src="docs/assets/screenshots/protrait (4).jpg" alt="应用截图4" width="160" style="border-radius: 12px;" />
+    <img src="assets/screenshots/protrait (1).jpg" alt="应用截图1" width="160" style="border-radius: 12px;" />
+    <img src="assets/screenshots/protrait (2).jpg" alt="应用截图2" width="160" style="border-radius: 12px;" />
+    <img src="assets/screenshots/protrait (3).jpg" alt="应用截图3" width="160" style="border-radius: 12px;" />
+    <img src="assets/screenshots/protrait (4).jpg" alt="应用截图4" width="160" style="border-radius: 12px;" />
   </div>
   
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 15px;">
