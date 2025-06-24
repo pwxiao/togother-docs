@@ -73,7 +73,7 @@
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 15px;">
     <img src="assets/screenshots/protrait (5).jpg" alt="应用截图5" width="160" style="border-radius: 12px;" />
     <img src="assets/screenshots/protrait (6).jpg" alt="应用截图6" width="160" style="border-radius: 12px;" />
-    <img src="ssets/screenshots/protrait (7).jpg" alt="应用截图7" width="160" style="border-radius: 12px;" />
+    <img src="assets/screenshots/protrait (7).jpg" alt="应用截图7" width="160" style="border-radius: 12px;" />
     <img src="assets/screenshots/protrait (8).jpg" alt="应用截图8" width="160" style="border-radius: 12px;" />
   </div>
   
