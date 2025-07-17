@@ -9,9 +9,9 @@
 [123云盘下载](https://www.123684.com/s/5lHyTd-SrDHv)
 
 
-## mac版本 🆕（6月25日更新）
+## mac版本 🆕（7月17日更新）
 
-[123云盘下载](https://www.123684.com/s/5lHyTd-LYDHv)
+[123云盘下载](https://www.123684.com/s/5lHyTd-lrDHv)
 
 ## 安卓版本 {#安卓版本}
 
