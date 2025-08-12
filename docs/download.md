@@ -4,9 +4,9 @@
 
 
 
-## Windows版本 （8月9日更新）
+<!-- ## Windows版本 （8月9日更新）
 
-[123云盘下载](https://www.123684.com/s/5lHyTd-IcDHv)
+[123云盘下载](https://www.123684.com/s/5lHyTd-IcDHv) -->
 
 
 ## mac版本 🆕（8月9日更新）
@@ -17,7 +17,7 @@
 
 支持所有Android设备
 
-[立即下载 v2.4.2](https://oss.autooj.cn/apps/2.4.6-app-arm64-v8a-release.apk)
+[立即下载 v2.4.7](https://oss.autooj.cn/apps/2.4.7-app-arm64-v8a-release.apk)
 
 ## iOS TestFlight 公测版 {#ios-testflight-公测版}
 
