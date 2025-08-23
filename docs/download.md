@@ -4,14 +4,14 @@
 
 
 
-<!-- ## Windows版本 （8月9日更新）
+## Windows版本 （8月23日更新）
 
-[123云盘下载](https://www.123684.com/s/5lHyTd-IcDHv) -->
+[123云盘下载](https://www.123684.com/s/5lHyTd-OyDHv)
 
 
-## mac版本 🆕（8月9日更新）
+## mac版本 🆕（8月23更新）
 
-[123云盘下载](https://www.123684.com/s/5lHyTd-wcDHv)
+[123云盘下载](https://www.123684.com/s/5lHyTd-RyDHv)
 
 ## 安卓版本 {#安卓版本}
 
