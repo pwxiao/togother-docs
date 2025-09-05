@@ -6,12 +6,12 @@
 
 ## Windows版本 （9月5日更新）
 
-[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.2.exe)
+[直接下载](https://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.2.exe)
 
 
 ## mac版本 🆕（8月23更新）
 
-[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.2.dmg)
+[直接下载](https://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.2.dmg)
 
 ## 安卓版本 {#安卓版本}
 
