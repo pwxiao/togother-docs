@@ -4,20 +4,20 @@
 
 
 
-## Windows版本 （9月5日更新）
+## Windows版本 （9月9日更新）
 
-[直接下载](https://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.2.exe)
+[直接下载](hhttp://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.3.exe)
 
 
-## mac版本 🆕（8月23更新）
+## mac版本 🆕（9月9更新）
 
-[直接下载](https://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.2.dmg)
+[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.3.dmg)
 
 ## 安卓版本 {#安卓版本}
 
 支持所有Android设备
 
-[立即下载 v2.4.7](https://oss.autooj.cn/apps/2.4.7-app-arm64-v8a-release.apk)
+[立即下载 v2.5.3](https://oss.autooj.cn/apps/2.5.3-app-arm64-v8a-release.apk)
 
 ## iOS TestFlight 公测版 {#ios-testflight-公测版}
 
@@ -32,11 +32,11 @@
     </video>
     
 
-## iOS版本 (App Store) {#ios版本-app-store}
+<!-- ## iOS版本 (App Store) {#ios版本-app-store}
 
 国区暂不可用，请使用美区账号
 
-[App Store下载](https://apps.apple.com/us/app/一起看-异地同步观影神器/id6742242273)
+[App Store下载](https://apps.apple.com/us/app/一起看-异地同步观影神器/id6742242273) -->
 
 
 
