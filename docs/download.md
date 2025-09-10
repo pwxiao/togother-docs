@@ -17,7 +17,7 @@
 
 支持所有Android设备
 
-[立即下载 v2.5.3](https://oss.autooj.cn/apps/2.5.3-app-arm64-v8a-release.apk)
+[立即下载 v2.5.3](http://aigc2024-test.yaoshang.tech/1370000038/app-arm64-v8a-release.apk)
 
 ## iOS TestFlight 公测版 {#ios-testflight-公测版}
 
