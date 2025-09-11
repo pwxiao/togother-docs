@@ -13,7 +13,7 @@
 
 
 
-2. **复制粘贴**以下订阅源地址：[https://togother.pwxiao.top/assets/source.json](https://togother.pwxiao.top/assets/source.json)
+2. **复制粘贴**以下订阅源地址：[https://docs.autooj.cn/assets/source.json](https://docs.autooj.cn/assets/source.json)
 3. 点击「导入」按钮完成操作
 
 ---
