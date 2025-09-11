@@ -6,14 +6,20 @@
     "use_proxy": true
   },
   {
-    "name": "B",
-    "url": "https://json02.heimuer.xyz/api.php/provide/vod/",
+    "name": "如意",
+    "url": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/json/",
     "enabled": true,
     "use_proxy": true
   },
   {
     "name": "量子",
     "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "B",
+    "url": "https://json02.heimuer.xyz/api.php/provide/vod/",
     "enabled": true,
     "use_proxy": true
   },

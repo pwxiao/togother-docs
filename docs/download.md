@@ -4,26 +4,26 @@
 
 
 
-## Windows版本 （9月9日更新）
+## Windows版本 
 
-[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.3.exe)
+[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.4.exe)
 
 
-## mac版本 🆕（9月9更新）
+## mac版本
 
-[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.3.dmg)
+[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.4.dmg)
 
 ## 安卓版本 {#安卓版本}
 
 支持所有Android设备
 
-[立即下载 v2.5.3](http://aigc2024-test.yaoshang.tech/1370000038/app-arm64-v8a-release.apk)
+[立即下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_android_arm64-v8a_2.5.4.apk)
 
-## iOS TestFlight 公测版 {#ios-testflight-公测版}
+## iOS TestFlight 版 {#ios-testflight-版}
 
-无需美区账号，直接安装测试版
+无需美区账号，直接安装（不需要邀请码，不会请查看下方视频）
 
-[加入TestFlight测试](https://testflight.apple.com/join/xk6vZNpD)  
+[加入TestFlight](https://testflight.apple.com/join/xk6vZNpD)  
 
 ??? tip "不会使用安装iOS版本？查看视频"
     <video width="100%" controls>

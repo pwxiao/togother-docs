@@ -9,14 +9,12 @@
 
 ![](../assets/imgs/1.jpg){width=200}
 
-![](../assets/imgs/2.jpg){width=200}
 
-2. 点击「输入URL」选项
 
-![](../assets/imgs/3.jpg){width=200}
 
-3. 粘贴以下订阅源地址：[https://togother.pwxiao.top/assets/source.json](https://togother.pwxiao.top/assets/source.json)
-4. 点击「导入」按钮完成操作
+
+2. **复制粘贴**以下订阅源地址：[https://togother.pwxiao.top/assets/source.json](https://togother.pwxiao.top/assets/source.json)
+3. 点击「导入」按钮完成操作
 
 ---
 
@@ -36,14 +34,20 @@
     "use_proxy": true
   },
   {
-    "name": "B",
-    "url": "https://json02.heimuer.xyz/api.php/provide/vod/",
+    "name": "如意",
+    "url": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/json/",
     "enabled": true,
     "use_proxy": true
   },
   {
     "name": "量子",
     "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "B",
+    "url": "https://json02.heimuer.xyz/api.php/provide/vod/",
     "enabled": true,
     "use_proxy": true
   },
