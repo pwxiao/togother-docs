@@ -27,6 +27,18 @@
 
 ```json
 [
+    {
+    "name": "电影天堂",
+    "url": "https://caiji.dyttzyapi.com/api.php/provide/vod/",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "量子",
+    "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
+    "enabled": true,
+    "use_proxy": true
+  },
   {
     "name": "豆瓣",
     "url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn/",
@@ -36,12 +48,6 @@
   {
     "name": "如意",
     "url": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/json/",
-    "enabled": true,
-    "use_proxy": true
-  },
-  {
-    "name": "量子",
-    "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
     "enabled": true,
     "use_proxy": true
   },
