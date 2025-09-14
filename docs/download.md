@@ -2,22 +2,21 @@
 
 与亲朋好友实时同步观看电影、电视剧，享受共同观影的乐趣。
 
+## 安卓版本 {#安卓版本}
+
+
+[立即下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_android_arm64-v8a_2.5.5.apk)
 
 
 ## Windows版本 
 
-[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.4.exe)
+[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.5.exe)
 
 
 ## mac版本
 
-[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.4.dmg)
+[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.5.dmg)
 
-## 安卓版本 {#安卓版本}
-
-支持所有Android设备
-
-[立即下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_android_arm64-v8a_2.5.4.apk)
 
 ## iOS TestFlight 版 {#ios-testflight-版}
 
