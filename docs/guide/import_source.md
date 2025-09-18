@@ -38,13 +38,7 @@
     "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
     "enabled": true,
     "use_proxy": true
-  },
-  {
-    "name": "豆瓣",
-    "url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn/",
-    "enabled": true,
-    "use_proxy": true
-  },
+  }
   {
     "name": "如意",
     "url": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/json/",
