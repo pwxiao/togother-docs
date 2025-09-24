@@ -5,7 +5,7 @@
 ## 安卓版本 {#安卓版本}
 
 
-[立即下载](http://aigc2024-test.yaoshang.tech/1370000038/app-arm64-v8a-release.apk)
+[立即下载](http://aigc2024-test.yaoshang.tech/1370000038/app-arm64-v8a-release-257.apk)
 
 
 ## Windows版本 
