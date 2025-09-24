@@ -5,17 +5,17 @@
 ## 安卓版本 {#安卓版本}
 
 
-[立即下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_android_arm64-v8a_2.5.5.apk)
+[立即下载](http://aigc2024-test.yaoshang.tech/1370000038/app-arm64-v8a-release.apk)
 
 
 ## Windows版本 
 
-[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.5.exe)
+[直接下载](https://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.7.exe)
 
 
 ## mac版本
 
-[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.5.dmg)
+[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.7.dmg)
 
 
 ## iOS TestFlight 版 {#ios-testflight-版}
