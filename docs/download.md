@@ -5,24 +5,24 @@
 ## 安卓版本 {#安卓版本}
 
 
-[立即下载](http://aigc2024-test.yaoshang.tech/1370000038/app-arm64-v8a-release-257.apk)
+<a href="http://aigc2024-test.yaoshang.tech/1370000038/app-arm64-v8a-release-257.apk" target="_blank">立即下载</a>
 
 
 ## Windows版本 
 
-[直接下载](https://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.7.exe)
+<a href="https://aigc2024-test.yaoshang.tech/1370000038/togother_windows_x64_2.5.7.exe" target="_blank">直接下载</a>
 
 
 ## mac版本
 
-[直接下载](http://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.7.dmg)
+<a href="http://aigc2024-test.yaoshang.tech/1370000038/togother_macos_2.5.7.dmg" target="_blank">直接下载</a>
 
 
 ## iOS TestFlight 版 {#ios-testflight-版}
 
 无需美区账号，直接安装（不需要邀请码，不会请查看下方视频）
 
-[加入TestFlight](https://testflight.apple.com/join/xk6vZNpD)  
+<a href="https://testflight.apple.com/join/xk6vZNpD" target="_blank">加入TestFlight</a>  
 
 ??? tip "不会使用安装iOS版本？查看视频"
     <video width="100%" controls>
