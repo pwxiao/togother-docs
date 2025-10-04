@@ -1,0 +1,6 @@
+mkdocs 
+mkdocs-material 
+mkdocs-roamlinks-plugin
+mkdocs-statistics-plugin
+mkdocs-minify-plugin
+

@@ -1,0 +1,96 @@
+site_name: Togother Docs
+site_description: 一起看app｜ 使用文档
+site_author: pwxiao
+site_url: https://docs.togother.top
+repo_url: https://github.com/pwxiao/togother-docs
+repo_name: togother-docs
+
+theme:
+  name: material
+  logo: assets/logo.png
+  language: zh
+  font:
+    text: Noto Sans SC
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: white
+    #   toggle:
+    #     icon: material/brightness-7
+    #     name: 切换到深色模式
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   primary: white
+    #   accent: white
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: 切换到浅色模式
+  icon:
+    repo: fontawesome/brands/github
+
+# 谷歌分析
+extra:
+  meta:
+    - name: "description"
+      content: "一起看app｜ 使用文档"
+    - name: "keywords"
+      content: "一起看,异地,情侣,一起看视频,异地恋,app,文档,使用文档,togother"
+  analytics:
+    provider: google
+    property: G-VEN5KYD9DP
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pwxiao
+      name: pwxiao on GitHub
+
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - tags
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+nav:
+  - 首页: index.md
+  - 下载: download.md
+  - 指南: 
+    - 快速开始: guide/getting-started.md
+    - 导入视频源: guide/import_source.md
+    - 进阶功能:
+      - Emby服务器: guide/emby_guide.md
+      - 夸克网盘: guide/quark_netdisk.md
+      - WebDAV/Alist: guide/webdav_alist.md
+      - 视频嗅探: guide/video_sniffer.md
+      - 直播解析: guide/live_parser.md
+      - 动漫搜索: guide/anime_search.md
+  - 帮助中心:
+    - 常见问题: help.md
+    - 搜索引擎帮助: search_engine_help.md
+  - 法律条款:
+    - 用户协议: terms.md
+    - 隐私政策: privacy.md
+  - 更新历史: changelog.md
+  - 支持: support.md
+

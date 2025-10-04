@@ -1,0 +1,181 @@
+{
+  "sources": [
+    {
+      "name": "量子",
+      "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "电影天堂",
+      "url": "https://caiji.dyttzyapi.com/api.php/provide/vod/",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "如意",
+      "url": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/json/",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "B",
+      "url": "https://json02.heimuer.xyz/api.php/provide/vod/",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "极速",
+      "url": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "暴风",
+      "url": "https://bfzyapi.com/api.php/provide/vod/",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "最大",
+      "url": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "非凡",
+      "url": "http://cj.ffzyapi.com/api.php/provide/vod/at/json/",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "360",
+      "url": "https://360zy.com/api.php/provide/vod",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "四圈",
+      "url": "https://pg.fenwe078.cf/api.php/provide/vod/",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "ikun",
+      "url": "https://ikunzyapi.com/api.php/provide/vod/",
+      "enabled": true,
+      "use_proxy": false
+    },
+    {
+      "name": "卧龙",
+      "url": "https://collect.wolongzyw.com/api.php/provide/vod/at/json",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "天空",
+      "url": "http://api.tiankongapi.com/api.php/provide/vod/at/json",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "无尽",
+      "url": "https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/at/json/",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "速播",
+      "url": "https://subocaiji.com/api.php/provide/vod/at/json",
+      "enabled": true,
+      "use_proxy": true
+    },
+    {
+      "name": "爱奇艺",
+      "url": "https://iqiyizyapi.com/api.php/provide/vod",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "爱坤",
+      "url": "https://ikunzyapi.com/api.php/provide/vod",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "虎牙",
+      "url": "https://www.huyaapi.com/api.php/provide/vod/at/json",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "艾旦影视",
+      "url": "https://lovedan.net/api.php/provide/vod/",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "光速资源",
+      "url": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "豪华资源",
+      "url": "https://hhzyapi.com/api.php/provide/vod/at/json",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "金鹰资源",
+      "url": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "魔爪",
+      "url": "https://mozhuazy.com/api.php/provide/vod/?ac=list",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "猫眼资源",
+      "url": "https://api.maoyanapi.top/api.php/provide/vod",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "金蝉",
+      "url": "http://zy.jinchancaiji.com/api.php/provide/vod",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "789",
+      "url": "https://www.caiji.cyou/api.php/provide/vod/?ac=list",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "听风",
+      "url": "https://gctf.tfdh.top/api.php/provide/vod/?ac=list",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "U酷",
+      "url": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
+      "use_proxy": false,
+      "enabled": true
+    },
+    {
+      "name": "小喵咪",
+      "url": "https://zy.xmm.hk/api.php/provide/vod/?ac=list",
+      "use_proxy": false,
+      "enabled": true
+    }
+  ],
+  "exported_at": "2025-09-13T13:32:00",
+  "app": "Togother",
+  "version": "1.0"
+}

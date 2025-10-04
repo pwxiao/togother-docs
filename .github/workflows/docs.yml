@@ -1,0 +1,35 @@
+name: Deploy Documentation
+
+on:
+  push:
+    paths:
+      - docs/**
+      - mkdocs.yml
+      - requirements.txt
+      - .github/workflows/docs.yml
+
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy Documentation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up Python
+        uses: actions/setup-python@v5
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build Documentation
+        run: mkdocs build
+
+      - name: Deploy to Vercel
+        run: npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
+        working-directory: site
+        env:  
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
