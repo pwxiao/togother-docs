@@ -6,22 +6,6 @@
   <img src="assets/logo.png" alt="一起看 Logo" width="200" height="200" />
 </div>
 
-<!-- 
-<div align="center">
-  <img src="assets/logo.png" alt="一起看 Logo" width="200" height="200" />
-  
-  # 一起看 (Togother)
-  
-  **与朋友和家人一起实时观看视频，共享欢乐时光**
-  
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-  [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android%20%7C%20Windows%20%7C%20macOS-lightgrey.svg)](download.md)
-  [![Latest Release](https://img.shields.io/badge/release-latest-brightgreen.svg)](changelog.md)
-  [![QQ Group](https://img.shields.io/badge/QQ群-495152175-orange.svg)](support.md)
-  
-  [📥 下载应用](download.md) • [📖 使用文档](index.md) • [❓ 常见问题](help.md) • [🔄 更新日志](changelog.md)
-  
-</div> -->
 
 ## 宣传视频
 
@@ -50,7 +34,7 @@
 
 ### 🌟 为什么选择一起看？
 
-- **🎯 完美同步**：毫秒级同步技术，确保所有人观看进度一致
+- **🎯 完美同步**：秒级同步技术，确保所有人观看进度一致
 - **🌍 跨平台**：支持 iOS、Android、Windows、macOS 全平台
 - **🎬 多源支持**：支持在线视频、Emby、夸克网盘、WebDAV 等多种视频源
 - **🔒 隐私安全**：端到端加密通信，保护用户隐私
@@ -263,19 +247,6 @@
 
 ---
 
-<div align="center">
-  
-  ### 让距离不再是问题，一起看更精彩！
-  
-  [⬆ 回到顶部](#top)
-  
-  ---
-  
-  **Copyright © 2025 一起看团队. All Rights Reserved.**
-  
-  Made with ❤️ by Togother Team
-  
-</div>
 
 
 <div style="text-align: center; padding: 10px; margin: 10px 0; background-color: #f5f5f5; border-radius: 5px;">
