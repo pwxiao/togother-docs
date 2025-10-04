@@ -1,5 +1,12 @@
+# 欢迎使用 Togother Docs
 
+这是"Togother"应用的官方文档站点，您可以在这里找到所有相关信息。
 
+<div align="center">
+  <img src="assets/logo.png" alt="一起看 Logo" width="200" height="200" />
+</div>
+
+<!-- 
 <div align="center">
   <img src="assets/logo.png" alt="一起看 Logo" width="200" height="200" />
   
@@ -14,9 +21,10 @@
   
   [📥 下载应用](download.md) • [📖 使用文档](index.md) • [❓ 常见问题](help.md) • [🔄 更新日志](changelog.md)
   
-</div>
+</div> -->
 
 ## 宣传视频
+
 <iframe width="100%" height="500" src="//player.bilibili.com/player.html?isOutside=true&aid=114085890887269&bvid=BV1zEXDY7E5E&cid=30305226050&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ---
@@ -94,13 +102,13 @@
 
 <div align="center">
   
-  ### 🖥️ 宽屏展示
+
   
   <img src="assets/screenshots/landscape (1).png" alt="播放界面" width="280" />
   <img src="assets/screenshots/landscape (2).png" alt="房间功能" width="280" />
   <img src="assets/screenshots/landscape (3).png" alt="控制面板" width="280" />
   
-  ### 📱 移动端界面
+
   
   <img src="assets/screenshots/protrait (1).jpg" alt="首页" width="160" />
   <img src="assets/screenshots/protrait (2).jpg" alt="搜索" width="160" />
