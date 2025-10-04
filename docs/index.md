@@ -1,114 +1,272 @@
-# 欢迎使用 Togother Docs
 
-这是"一起看"应用的官方文档站点，您可以在这里找到所有相关信息。
 
 <div align="center">
   <img src="assets/logo.png" alt="一起看 Logo" width="200" height="200" />
+  
+  # 一起看 (Togother)
+  
+  **与朋友和家人一起实时观看视频，共享欢乐时光**
+  
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+  [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android%20%7C%20Windows%20%7C%20macOS-lightgrey.svg)](download.md)
+  [![Latest Release](https://img.shields.io/badge/release-latest-brightgreen.svg)](changelog.md)
+  [![QQ Group](https://img.shields.io/badge/QQ群-495152175-orange.svg)](support.md)
+  
+  [📥 下载应用](download.md) • [📖 使用文档](index.md) • [❓ 常见问题](help.md) • [🔄 更新日志](changelog.md)
+  
 </div>
+
 ## 宣传视频
 <iframe width="100%" height="500" src="//player.bilibili.com/player.html?isOutside=true&aid=114085890887269&bvid=BV1zEXDY7E5E&cid=30305226050&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
+---
 
+## 📋 目录
+
+- [项目简介](#-项目简介)
+- [核心功能](#-核心功能)
+- [应用截图](#-应用截图)
+- [平台支持](#️-平台支持)
+- [使用指南](#-使用指南)
+- [贡献规则](#-贡献规则)
+- [版本历史](#-版本历史)
+- [常见问题](#-常见问题)
+- [支持与反馈](#-支持与反馈)
+- [许可证](#-许可证)
+
+---
 
 ## 📱 项目简介
 
-"一起看"是一款创新的视频同步观看应用，让用户可以与朋友、家人一起实时观看视频内容，共享欢乐时光。无论相隔多远，都能像坐在同一个沙发上一样，一起看电影、追剧、看直播。
+**一起看 (Togother)** 是一款创新的跨平台视频同步观看应用，专为远距离的朋友和家人设计。无论相隔多远，都能像坐在同一个沙发上一样，一起看电影、追剧、看直播，实时分享观影乐趣。
 
-> 欢迎大家来贡献规则👏 [https://github.com/pwxiao/TogotherRules](https://github.com/pwxiao/TogotherRules)
+### 🌟 为什么选择一起看？
 
-## ✨ 主要功能
+- **🎯 完美同步**：毫秒级同步技术，确保所有人观看进度一致
+- **🌍 跨平台**：支持 iOS、Android、Windows、macOS 全平台
+- **🎬 多源支持**：支持在线视频、Emby、夸克网盘、WebDAV 等多种视频源
+- **🔒 隐私安全**：端到端加密通信，保护用户隐私
+- **💡 智能便捷**：视频嗅探、直播解析等强大功能
 
-- **💬 实时同步观看** - 所有人的视频进度完全同步，确保共同的观影体验
-- **👨‍👩‍👧‍👦 多人观影房间** - 创建私密或公开房间，邀请好友一起观看
-- **💬 实时聊天** - 边看边聊，分享观影感受
-- **📺 支持多种视频源**
-  - 🎬 VOD视频资源
-  - 🖥️ Emby 服务器
-  - ☁️ 夸克网盘
-  - 🔄 WebDAV/Alist
-- **🔍 丰富的搜索功能** - 强大的搜索引擎，帮你找到想看的内容
-- **🎮 播放控制功能**
-  - ⏩ 最高支持 4 倍速播放
-  - 💬 弹幕功能
-  - 🔊 音轨切换
-  - 💻 字幕切换
+---
+
+## ✨ 核心功能
+
+### 🎥 同步观影体验
+
+- **⏱️ 实时同步播放** - 所有人的视频进度完全同步，确保共同的观影体验
+- **👨‍👩‍👧‍👦 多人房间** - 创建私密或公开房间，邀请好友一起观看
+- **💬 实时互动聊天** - 边看边聊，分享观影感受和精彩瞬间
+- **🎮 同步控制** - 房主可控制播放、暂停、快进等操作
+
+### 📺 多样化视频源
+
+- **🎬 在线视频资源** - 支持主流视频网站和在线资源
+- **🖥️ Emby 服务器** - 无缝集成 Emby 媒体服务器
+- **☁️ 夸克网盘** - 直接播放夸克网盘中的视频文件
+- **🔄 WebDAV/Alist** - 支持 WebDAV 和 Alist 网盘服务
+
+### 🎮 强大播放功能
+
+- **⏩ 变速播放** - 支持 0.5x - 4x 倍速播放
+- **💬 弹幕系统** - 完整的弹幕发送和显示功能
+- **🔊 音轨切换** - 多音轨选择，支持多语言切换
+- **💻 字幕设置** - 自定义字幕样式、大小和位置
 - **📱 画中画模式** - 支持后台播放和画中画观看
-- **📺 投屏功能** - 支持投屏到大屏设备（会员专享）
-- **💾 影片收藏** - 云端收藏喜爱的影片，随时随地观看
+- **📺 投屏功能** - 投屏到电视等大屏设备（会员专享）
+
+### 🔍 智能功能
+
+- **🕵️ 视频嗅探** - 智能分析网页中的视频资源，提取视频源地址
+- **📡 直播解析** - 获取抖音和哔哩哔哩平台的直播流
+- **🔎 强大搜索** - 多搜索引擎聚合，快速找到想看的内容
+- **🤖 番剧搜索** - 专业的动漫番剧搜索引擎
+
+### 💾 个人中心
+
+- **⭐ 影片收藏** - 云端收藏喜爱的影片，随时随地观看
 - **📊 观看历史** - 自动记录观看进度，无缝续播
-- **🕵️ 视频嗅探功能** - 智能分析网页中的视频资源，提取视频源地址
-- **📡 直播解析功能** - 获取抖音和哔哩哔哩平台的直播流，支持创建直播观看房间
+- **☁️ 云端同步** - 收藏和历史记录跨设备同步
 
-## �� 版本历史
-
-查看 [完整更新日志](changelog.md) 了解详细版本历史。
-
-## 🛠️ 平台支持
-
-- 📱 Android
-- 📱 iOS
-- 🖥️ windows
-- 🖥️ mac
-
+---
 
 ## 📸 应用截图
 
 <div align="center">
-  <!-- 宽屏截图 -->
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-bottom: 20px;">
-    <img src="assets/screenshots/landscape (1).png" alt="宽屏截图1" width="300" style="border-radius: 12px;" />
-    <img src="assets/screenshots/landscape (2).png" alt="宽屏截图2" width="300" style="border-radius: 12px;" />
-    <img src="assets/screenshots/landscape (3).png" alt="宽屏截图3" width="300" style="border-radius: 12px;" />
-  </div>
   
-  <!-- 竖屏截图 -->
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 15px;">
-    <img src="assets/screenshots/protrait (1).jpg" alt="应用截图1" width="160" style="border-radius: 12px;" />
-    <img src="assets/screenshots/protrait (2).jpg" alt="应用截图2" width="160" style="border-radius: 12px;" />
-    <img src="assets/screenshots/protrait (3).jpg" alt="应用截图3" width="160" style="border-radius: 12px;" />
-    <img src="assets/screenshots/protrait (4).jpg" alt="应用截图4" width="160" style="border-radius: 12px;" />
-  </div>
+  ### 🖥️ 宽屏展示
   
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 15px;">
-    <img src="assets/screenshots/protrait (5).jpg" alt="应用截图5" width="160" style="border-radius: 12px;" />
-    <img src="assets/screenshots/protrait (6).jpg" alt="应用截图6" width="160" style="border-radius: 12px;" />
-    <img src="assets/screenshots/protrait (7).jpg" alt="应用截图7" width="160" style="border-radius: 12px;" />
-    <img src="assets/screenshots/protrait (8).jpg" alt="应用截图8" width="160" style="border-radius: 12px;" />
-  </div>
+  <img src="assets/screenshots/landscape (1).png" alt="播放界面" width="280" />
+  <img src="assets/screenshots/landscape (2).png" alt="房间功能" width="280" />
+  <img src="assets/screenshots/landscape (3).png" alt="控制面板" width="280" />
   
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 15px;">
-    <img src="assets/screenshots/protrait (9).jpg" alt="应用截图9" width="160" style="border-radius: 12px;" />
-    <img src="assets/screenshots/protrait (10).jpg" alt="应用截图10" width="160" style="border-radius: 12px;" />
-    <img src="assets/screenshots/protrait (11).jpg" alt="应用截图11" width="160" style="border-radius: 12px;" />
-  </div>
+  ### 📱 移动端界面
+  
+  <img src="assets/screenshots/protrait (1).jpg" alt="首页" width="160" />
+  <img src="assets/screenshots/protrait (2).jpg" alt="搜索" width="160" />
+  <img src="assets/screenshots/protrait (3).jpg" alt="播放" width="160" />
+  <img src="assets/screenshots/protrait (4).jpg" alt="房间" width="160" />
+  
+  <img src="assets/screenshots/protrait (5).jpg" alt="视频源" width="160" />
+  <img src="assets/screenshots/protrait (6).jpg" alt="Emby" width="160" />
+  <img src="assets/screenshots/protrait (7).jpg" alt="收藏" width="160" />
+  <img src="assets/screenshots/protrait (9).jpg" alt="设置" width="160" />
+  <img src="assets/screenshots/protrait (10).jpg" alt="直播" width="160" />
+  <img src="assets/screenshots/protrait (11).jpg" alt="嗅探" width="160" />
+  
 </div>
 
-## ⚙️ 技术特点
+---
 
-- 🔄 实时同步技术，确保所有用户视频进度一致
-- 🚀 众多视频播放引擎
-- 👥 稳定的多人房间架构
-- 🎨 优雅直观的用户界面
+## 🛠️ 平台支持
 
-# 📥 下载方式
+<table>
+  <tr>
+    <td align="center">📱 <strong>iOS</strong></td>
+    <td>iOS 12.0 及以上</td>
+  </tr>
+  <tr>
+    <td align="center">📱 <strong>Android</strong></td>
+    <td>Android 5.0 及以上</td>
+  </tr>
+  <tr>
+    <td align="center">🖥️ <strong>Windows</strong></td>
+    <td>Windows 10 及以上</td>
+  </tr>
+  <tr>
+    <td align="center">🖥️ <strong>macOS</strong></td>
+    <td>macOS 10.13 及以上</td>
+  </tr>
+</table>
 
-访问我们的 [官方下载页面](download.md) 获取最新版本。
+---
+
+## 📖 使用指南
+
+我们提供了详细的使用文档，帮助您更好地使用"一起看"：
+
+| 指南 | 说明 |
+|------|------|
+| [🎬 新手入门](guide/getting-started.md) | 快速了解应用基本使用 |
+| [🔍 视频搜索](guide/anime_search.md) | 如何使用搜索功能找到想看的内容 |
+| [📦 导入规则](guide/import_source.md) | 如何导入自定义视频源规则 |
+| [🖥️ Emby 配置](guide/emby_guide.md) | Emby 服务器配置教程 |
+| [☁️ 夸克网盘](guide/quark_netdisk.md) | 夸克网盘使用指南 |
+| [🔄 WebDAV/Alist](guide/webdav_alist.md) | WebDAV 和 Alist 配置 |
+| [🕵️ 视频嗅探](guide/video_sniffer.md) | 使用视频嗅探功能 |
+| [📡 直播解析](guide/live_parser.md) | 直播流解析使用教程 |
+| [🎬 视频分析](guide/video_analyse.md) | 视频分析工具使用 |
+
+---
+
+
+## 🤝 贡献规则
+
+我们欢迎社区贡献视频源规则！这可以让所有用户受益。
+
+### 如何贡献规则？
+
+1. 访问规则仓库：[https://github.com/pwxiao/TogotherRules](https://github.com/pwxiao/TogotherRules)
+2. Fork 项目到您的账号
+3. 添加或修改规则文件
+4. 提交 Pull Request
+5. 等待审核合并
+
+### 规则格式
+
+规则文件需要遵循特定的 JSON 格式，详见规则仓库的说明文档。
+
+> 👏 **感谢每一位贡献者！** 你们的贡献让"一起看"变得更好。
+
+---
+
+## 📈 版本历史
+
+
+查看 [完整更新日志](changelog.md) 了解详细版本历史和功能更新。
+
+---
+
+## ❓ 常见问题
+
+
+### 视频卡顿怎么办？
+
+1. 检查网络连接
+2. 尝试切换清晰度
+3. 更换视频源
+4. 关闭其他后台应用
+
+### 如何添加自定义源？
+
+查看 [导入规则指南](guide/import_source.md) 了解详细步骤。
+
+更多问题请访问 [帮助中心](help.md) 或加入 QQ 群咨询。
+
+---
 
 ## 🤝 支持与反馈
 
-- 📚 [使用文档](index.md)
-- ❓ [常见问题](help.md)
-- 📧 联系邮箱: 203115061@qq.com
-- 👥 用户交流群: 495152175
-## 📄 用户协议与隐私
+### 📞 联系我们
 
-- [用户协议](terms.md)
-- [隐私政策](privacy.md)
+- **📧 邮箱**：203115061@qq.com
+- **👥 QQ 群**：495152175
+
+### 📚 文档资源
+
+- [📖 完整文档](index.md)
+- [❓ 帮助中心](help.md)
+- [🔄 更新日志](changelog.md)
+
+### 🐛 问题反馈
+
+如果您在使用过程中遇到问题或有功能建议：
+
+1. 查看 [常见问题](help.md) 寻找解决方案
+2. 加入 QQ 群与其他用户交流
+3. 发送邮件至官方邮箱
+4. 在社区中分享您的想法
+
+---
+
+## 📄 法律信息
+
+### 用户协议与隐私
+
+- [📋 用户协议](terms.md)
+- [🔒 隐私政策](privacy.md)
+
+### 免责声明
+
+本应用仅作为视频播放工具使用，不提供任何视频内容。所有视频内容均来自第三方网站或用户自有资源。用户需遵守当地法律法规，合理使用本应用。
+
+---
+
+## 📜 许可证
+
+本项目文档采用 [MIT License](LICENSE) 开源协议。
+
+---
+
+
+## 🌟 Star History
+
+如果你喜欢这个项目，请给我们一个 Star ⭐️
 
 ---
 
 <div align="center">
-  <p>Copyright © 2025 一起看团队</p>
+  
+  ### 让距离不再是问题，一起看更精彩！
+  
+  [⬆ 回到顶部](#top)
+  
+  ---
+  
+  **Copyright © 2025 一起看团队. All Rights Reserved.**
+  
+  Made with ❤️ by Togother Team
+  
 </div>
 
 
