@@ -1,7 +1,7 @@
-site_name: Togother Docs
-site_description: 一起看app｜ 使用文档
+site_name: Togother
+site_description: Togother｜ 使用文档
 site_author: pwxiao
-site_url: https://docs.togother.top
+site_url: https://docs.autooj.cn
 repo_url: https://github.com/pwxiao/togother-docs
 repo_name: togother-docs
 
@@ -42,9 +42,9 @@ theme:
 extra:
   meta:
     - name: "description"
-      content: "一起看app｜ 使用文档"
+      content: "Togother｜ 使用文档"
     - name: "keywords"
-      content: "一起看,异地,情侣,一起看视频,异地恋,app,文档,使用文档,togother"
+      content: "Togother,异地,情侣,一起看视频,异地恋,app,文档,使用文档,togother"
   analytics:
     provider: google
     property: G-VEN5KYD9DP
