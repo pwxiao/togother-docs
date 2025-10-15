@@ -5,17 +5,17 @@
 ## 安卓版本 {#安卓版本}
 
 
-<a href="https://tutugo.qnaigc.com/test/togother_android_arm64-v8a_2.5.9.apk" target="_blank">立即下载</a>
+<a href="https://tutugo.qnaigc.com/test/togother_android_arm64-v8a_2.6.1.apk" target="_blank">立即下载</a>
 
 
 ## Windows版本 
 
-<a href="https://tutugo.qnaigc.com/test/togother_windows_x64_2.5.9.exe" target="_blank">直接下载</a>
+<a href="https://tutugo.qnaigc.com/test/togother_windows_x64_2.6.1.exe" target="_blank">直接下载</a>
 
 
 ## mac版本
 
-<a href="https://tutugo.qnaigc.com/test/togother_macos_2.5.9.dmg" target="_blank">直接下载</a>
+<a href="https://tutugo.qnaigc.com/test/togother_macos_2.6.1.dmg" target="_blank">直接下载</a>
 
 
 ## iOS TestFlight 版 {#ios-testflight-版}
