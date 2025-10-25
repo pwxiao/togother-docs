@@ -1,0 +1,56 @@
+name: Update App Versions
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # 每隔6小时执行一次 (0:00, 6:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # 允许手动触发
+
+# 添加权限配置，允许写入仓库内容
+permissions:
+  contents: write
+
+jobs:
+  update-versions:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: npm install mysql2
+      
+      - name: Fetch versions from database and update docs
+        env:
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+        run: node .github/scripts/update-versions.js
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code docs/download.md docs/changelog.md docs/public/changelog.json || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/download.md docs/changelog.md docs/public/changelog.json
+          git commit -m "chore: auto-update app versions and changelog from database"
+          git push
+

@@ -1,0 +1,19 @@
+{
+  "name": "togother-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.4.1",
+    "vue": "^3.5.12"
+  },
+  "dependencies": {
+    "marked": "^16.4.1",
+    "mysql2": "^3.15.3"
+  }
+}

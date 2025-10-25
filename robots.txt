@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://togother.pwxiao.top/sitemap.xml
