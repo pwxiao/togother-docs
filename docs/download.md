@@ -1,7 +1,5 @@
 # 下载应用
 
-
-
 <style>
 .download-list {
   max-width: 700px;
@@ -62,12 +60,6 @@
 
 .ios-item {
   background: linear-gradient(135deg, var(--vp-c-bg-soft) 0%, var(--vp-c-bg-alt) 100%);
-}
-
-.ios-note {
-  font-size: 0.85rem;
-  color: var(--vp-c-text-2);
-  margin-top: 0.3rem;
 }
 
 /* Modal 样式 */
@@ -184,7 +176,6 @@ details[open] summary {
   margin-bottom: 1rem;
 }
 
-
 .modal-btn {
   padding: 0.75rem 2rem;
   border-radius: 6px;
@@ -241,105 +232,31 @@ details[open] summary {
 }
 </style>
 
-<div class="download-list">
-
-  <div class="download-item">
-    <div class="download-info">
-      <div class="platform-name">安卓版本</div>
-      <div class="version">2.6.1</div>
-    </div>
-    <a href="https://tutugo.qnaigc.com/test/togother_android_arm64-v8a_2.6.1.apk" 
-       class="download-btn" 
-       target="_blank">立即下载</a>
-  </div>
-
-  <div class="download-item">
-    <div class="download-info">
-      <div class="platform-name">Windows 版本</div>
-      <div class="version">2.6.1</div>
-    </div>
-    <a href="https://tutugo.qnaigc.com/test/togother_windows_x64_2.6.1.exe" 
-       class="download-btn" 
-       target="_blank">立即下载</a>
-  </div>
-
-  <div class="download-item">
-    <div class="download-info">
-      <div class="platform-name">macOS 版本</div>
-      <div class="version">2.6.1</div>
-    </div>
-    <a href="https://tutugo.qnaigc.com/test/togother_macos_2.6.1.dmg" 
-       class="download-btn" 
-       target="_blank">立即下载</a>
-  </div>
-
-  <div class="download-item ios-item">
-    <div class="download-info">
-      <div class="platform-name">iOS 版本</div>
-      <div class="version">Testflight</div>
-    </div>
-    <button class="download-btn" onclick="openIOSModal()">立即下载</button>
-  </div>
-
-</div>
-
-<!-- iOS 下载对话框 -->
-<div id="iosModal" class="ios-modal" onclick="closeIOSModal(event)">
-  <div class="modal-content" onclick="event.stopPropagation()">
-    <div class="modal-header">
-      <h2 class="modal-title">iOS TestFlight</h2>
-      <button class="modal-close" onclick="closeIOSModal()">&times;</button>
-    </div>
-    <div class="modal-body">
-      <!-- 主要下载按钮 -->
-      <div style="text-align: center; margin-bottom: 2rem;">
-        <a href="https://testflight.apple.com/join/xk6vZNpD" 
-           class="modal-btn modal-btn-primary" 
-           target="_blank"
-           style="font-size: 1.1rem; padding: 1rem 3rem;">
-           立即下载
-        </a>
-      </div>
-      
-      <!-- 简约提示 -->
-      <div class="modal-notice" style="background: transparent; border: none; padding: 0; margin-bottom: 1.5rem;">
-        <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 1rem;">
-          <span style="color: var(--vp-c-text-2); font-size: 0.9rem;">✓ 无需邀请码</span>
-          <span style="color: var(--vp-c-text-2); font-size: 0.9rem;">✓ 无需美区账号</span>
-        </div>
-        <details style="margin-top: 1.5rem;">
-          <summary style="cursor: pointer; color: var(--vp-c-text-2); font-size: 0.9rem; text-align: center; list-style: none; padding: 0.5rem;">
-            <span style="color: var(--vp-c-brand-1);">📺 查看安装教程</span>
-          </summary>
-          <div class="modal-video" style="margin-top: 1rem;">
-            <video width="100%" controls controlsList="nodownload">
-              <source src="/assets/video/ios.mp4" type="video/mp4" />
-              您的浏览器不支持视频播放。
-            </video>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</div>
-
 <script setup>
-import { onMounted } from 'vue';
+import { ref, onMounted } from 'vue';
 
-onMounted(() => {
+const downloads = ref([]);
+const showModal = ref(false);
+const currentModal = ref(null);
+
+onMounted(async () => {
+  try {
+    const response = await fetch('/downloads.json');
+    const data = await response.json();
+    downloads.value = data.platforms;
+  } catch (error) {
+    console.error('Failed to load downloads:', error);
+  }
+
   // 定义全局函数
   window.openIOSModal = function() {
-    const modal = document.getElementById('iosModal');
-    if (modal) {
-      modal.classList.add('active');
-      document.body.style.overflow = 'hidden';
-    }
+    showModal.value = true;
+    document.body.style.overflow = 'hidden';
   };
 
   window.closeIOSModal = function(event) {
-    const modal = document.getElementById('iosModal');
-    if (modal && (!event || event.target === modal || event.type === 'click')) {
-      modal.classList.remove('active');
+    if (!event || event.target.classList.contains('ios-modal') || event.type === 'click') {
+      showModal.value = false;
       document.body.style.overflow = '';
     }
   };
@@ -351,19 +268,99 @@ onMounted(() => {
     }
   });
 });
+
+const handleDownload = (platform) => {
+  if (platform.type === 'modal') {
+    currentModal.value = platform;
+    window.openIOSModal();
+  } else {
+    window.open(platform.downloadUrl, '_blank');
+  }
+};
 </script>
+
+<div class="download-list">
+  <div 
+    v-for="platform in downloads" 
+    :key="platform.id"
+    class="download-item"
+    :class="{ 'ios-item': platform.id === 'ios' }"
+  >
+    <div class="download-info">
+      <div class="platform-name">{{ platform.name }}</div>
+      <div class="version">{{ platform.version }}</div>
+    </div>
+    <a 
+      v-if="platform.type === 'direct'"
+      :href="platform.downloadUrl" 
+      class="download-btn" 
+      target="_blank"
+    >
+      立即下载
+    </a>
+    <button 
+      v-else
+      class="download-btn" 
+      @click="handleDownload(platform)"
+    >
+      立即下载
+    </button>
+  </div>
+</div>
+
+<!-- iOS 下载对话框 -->
+<div 
+  v-if="showModal && currentModal" 
+  class="ios-modal active" 
+  @click="closeIOSModal"
+>
+  <div class="modal-content" @click.stop>
+    <div class="modal-header">
+      <h2 class="modal-title">{{ currentModal.modalConfig.title }}</h2>
+      <button class="modal-close" @click="closeIOSModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <!-- 主要下载按钮 -->
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <a 
+          :href="currentModal.downloadUrl" 
+          class="modal-btn modal-btn-primary" 
+          target="_blank"
+          style="font-size: 1.1rem; padding: 1rem 3rem;"
+        >
+          立即下载
+        </a>
+      </div>
+      
+      <!-- 简约提示 -->
+      <div class="modal-notice" style="background: transparent; border: none; padding: 0; margin-bottom: 1.5rem;">
+        <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 1rem;">
+          <span 
+            v-for="(feature, index) in currentModal.modalConfig.features" 
+            :key="index"
+            style="color: var(--vp-c-text-2); font-size: 0.9rem;"
+          >
+            {{ feature }}
+          </span>
+        </div>
+        <details style="margin-top: 1.5rem;">
+          <summary style="cursor: pointer; color: var(--vp-c-text-2); font-size: 0.9rem; text-align: center; list-style: none; padding: 0.5rem;">
+            <span style="color: var(--vp-c-brand-1);">{{ currentModal.modalConfig.videoTitle }}</span>
+          </summary>
+          <div class="modal-video" style="margin-top: 1rem;">
+            <video width="100%" controls controlsList="nodownload">
+              <source :src="currentModal.modalConfig.videoUrl" type="video/mp4" />
+              您的浏览器不支持视频播放。
+            </video>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div style="text-align: center; margin-top: 4rem; padding: 2rem 0; border-top: 1px solid var(--vp-c-divider);">
   <p style="color: var(--vp-c-text-2); font-size: 0.9rem;">
     遇到问题？查看 <a href="/changelog.html" style="color: var(--vp-c-brand-1);">更新日志</a> 或联系客服
   </p>
 </div>
-
-<!-- ## iOS版本 (App Store) {#ios版本-app-store}
-
-国区暂不可用，请使用美区账号
-
-[App Store下载](https://apps.apple.com/us/app/一起看-异地同步观影神器/id6742242273) -->
-
-
-
