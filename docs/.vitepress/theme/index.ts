@@ -6,6 +6,7 @@ import VisitStats from './components/VisitStats.vue'
 import PageVisitCount from './components/PageVisitCount.vue'
 import FooterStats from './components/FooterStats.vue'
 import ChangelogDisplay from './components/ChangelogDisplay.vue'
+import DownloadPage from './components/DownloadPage.vue'
 
 // 加载 Vercount 脚本
 function loadVercount() {
@@ -38,6 +39,7 @@ const theme: Theme = {
     app.component('VisitStats', VisitStats)
     app.component('PageVisitCount', PageVisitCount)
     app.component('ChangelogDisplay', ChangelogDisplay)
+    app.component('DownloadPage', DownloadPage)
     
     // 页面加载时初始化 Vercount
     if (inBrowser) {
