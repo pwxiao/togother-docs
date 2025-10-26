@@ -254,9 +254,9 @@
   <div class="download-item">
     <div class="download-info">
       <div class="platform-name">Windows 版本</div>
-      <div class="version">2.6.1</div>
+      <div class="version">2.6.2</div>
     </div>
-    <a href="https://tutugo.qnaigc.com/test/togother_windows_x64_2.6.1.exe" 
+    <a href="https://ghfast.top/https://github.com/pwxiao/togother-docs/releases/download/v2.6.2/togother_windows_x64_2.6.2.exe" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
@@ -264,9 +264,9 @@
   <div class="download-item">
     <div class="download-info">
       <div class="platform-name">macOS 版本</div>
-      <div class="version">2.6.1</div>
+      <div class="version">2.6.2</div>
     </div>
-    <a href="https://tutugo.qnaigc.com/test/togother_macos_2.6.1.dmg" 
+    <a href="https://ghfast.top/https://github.com/pwxiao/togother-docs/releases/download/v2.6.2/togother_macos_2.6.2.dmg" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
