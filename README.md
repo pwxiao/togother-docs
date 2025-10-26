@@ -1,9 +1,5 @@
 <div align="center">
-  <img src="docs/public/assets/logo.png" alt="一起看 Logo" width="200" height="200" />
-  
-  # 一起看 (Togother)
-  
-  **与朋友和家人一起实时观看视频，共享欢乐时光**
+  <img src="https://socialify.git.ci/pwxiao/togother-docs/image?description=1&descriptionEditable=%E4%B8%8E%E6%9C%8B%E5%8F%8B%E5%92%8C%E5%AE%B6%E4%BA%BA%E4%B8%80%E8%B5%B7%E5%AE%9E%E6%97%B6%E8%A7%82%E7%9C%8B%E8%A7%86%E9%A2%91%EF%BC%8C%E5%85%B1%E4%BA%AB%E6%AC%A2%E4%B9%90%E6%97%B6%E5%85%89&font=Jost&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fpwxiao%2Ftogother-docs%2Fmain%2Fdocs%2Fpublic%2Fassets%2Flogo.png&name=1&owner=1&pattern=Plus&theme=Light" alt="一起看 (Togother)" />
   
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
   [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android%20%7C%20Windows%20%7C%20macOS-lightgrey.svg)](docs/download.md)
