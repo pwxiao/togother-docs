@@ -244,9 +244,9 @@
   <div class="download-item">
     <div class="download-info">
       <div class="platform-name">安卓版本</div>
-      <div class="version">2.6.1</div>
+      <div class="version">2.6.2</div>
     </div>
-    <a href="https://tutugo.qnaigc.com/test/togother_android_arm64-v8a_2.6.1.apk" 
+    <a href="https://oss.autooj.cn/apps/2.6.2-app-arm64-v8a-release.apk" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
