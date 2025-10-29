@@ -274,7 +274,7 @@
   <div class="download-item ios-item">
     <div class="download-info">
       <div class="platform-name">iOS TestFlight</div>
-      <div class="version">2.6.1</div>
+      <div class="version">2.6.2</div>
     </div>
     <button class="download-btn" onclick="openIOSModal()">下载TestFlight</button>
   </div>
