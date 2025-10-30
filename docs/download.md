@@ -70,25 +70,83 @@
   margin-top: 0.3rem;
 }
 
-/* iOS 教程区域 */
-.ios-tutorial {
-  max-width: 700px;
-  margin: 3rem auto;
-  padding: 2rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
+/* Modal 样式 */
+.ios-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  animation: fadeIn 0.3s ease;
 }
 
-.ios-tutorial-title {
+.ios-modal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: var(--vp-c-bg);
+  border-radius: 12px;
+  max-width: 800px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  animation: slideIn 0.3s ease;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+  padding: 2rem 2rem 1rem 2rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+  position: sticky;
+  top: 0;
+  background: var(--vp-c-bg);
+  z-index: 1;
+}
+
+.modal-title {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--vp-c-text-1);
-  margin-bottom: 1.5rem;
-  text-align: center;
+  margin: 0;
 }
 
-.ios-notice {
+.modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.modal-close:hover {
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.modal-notice {
   background: var(--vp-c-brand-soft);
   border-left: 4px solid var(--vp-c-brand-1);
   padding: 1rem 1.5rem;
@@ -96,30 +154,87 @@
   border-radius: 6px;
 }
 
-.ios-notice p {
+.modal-notice p {
   margin: 0.5rem 0;
   color: var(--vp-c-text-1);
   line-height: 1.6;
 }
 
-.ios-notice strong {
+.modal-notice strong {
   color: var(--vp-c-brand-1);
 }
 
-.ios-video {
-  margin-top: 1.5rem;
+.modal-video {
+  margin-bottom: 1.5rem;
 }
 
-.ios-video video {
+.modal-video video {
   width: 100%;
   border-radius: 8px;
   background: #000;
 }
 
+.modal-footer {
+  padding: 1.5rem 2rem;
+  border-top: 1px solid var(--vp-c-divider);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 0 0 12px 12px;
+}
+
+.modal-btn {
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  font-size: 1rem;
+}
+
+.modal-btn-primary {
+  background: var(--vp-c-brand-1);
+  color: white !important;
+}
+
+.modal-btn-primary:hover {
+  background: var(--vp-c-brand-2);
+  transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 768px) {
-  .ios-tutorial {
+  .modal-content {
+    width: 95%;
+    max-height: 95vh;
+  }
+  
+  .modal-header,
+  .modal-body {
     padding: 1.5rem;
-    margin: 2rem auto;
+  }
+  
+  .modal-footer {
+    padding: 1rem 1.5rem;
   }
 }
 </style>
@@ -161,30 +276,68 @@
       <div class="platform-name">iOS TestFlight</div>
       <div class="version">2.6.2</div>
     </div>
-    <a href="https://testflight.apple.com/join/xk6vZNpD" 
-       class="download-btn" 
-       target="_blank">立即下载</a>
+    <button class="download-btn" onclick="openIOSModal()">下载TestFlight</button>
   </div>
 
 </div>
 
-<!-- iOS 安装教程 -->
-<div class="ios-tutorial">
-  <h2 class="ios-tutorial-title">📱 iOS TestFlight 安装教程</h2>
-  
-  <div class="ios-notice">
-    <p><strong>✓ 无需邀请码</strong></p>
-    <p><strong>✓ 无需美区账号</strong></p>
-    <p style="margin-top: 1rem; font-weight: 500;">⚠️ 如果不会下载，请完整看完下方视频教程</p>
-  </div>
-  
-  <div class="ios-video">
-    <video width="100%" controls controlsList="nodownload">
-      <source src="/assets/video/ios.mp4" type="video/mp4">
-      您的浏览器不支持视频播放。
-    </video>
+<!-- iOS 下载对话框 -->
+<div id="iosModal" class="ios-modal" onclick="closeIOSModal(event)">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <h2 class="modal-title">iOS TestFlight 安装教程</h2>
+      <button class="modal-close" onclick="closeIOSModal()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-footer" style="padding: 1rem 0; margin-bottom: 1.5rem; border: none; background: transparent;">
+        <a href="https://testflight.apple.com/join/xk6vZNpD" 
+           class="modal-btn modal-btn-primary" 
+           target="_blank">前往 TestFlight 下载</a>
+      </div>
+      <div class="modal-notice">
+        <p><strong>✓ 无需邀请码</strong></p>
+        <p><strong>✓ 无需美区账号</strong></p>
+        <p style="margin-top: 1rem; font-weight: 500;">⚠️ 如果不会下载，请完整看完下方视频教程</p>
+      </div>
+      <div class="modal-video">
+        <video width="100%" controls controlsList="nodownload">
+          <source src="/assets/video/ios.mp4" type="video/mp4">
+          您的浏览器不支持视频播放。
+        </video>
+      </div>
+    </div>
   </div>
 </div>
+
+<script setup>
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  // 定义全局函数
+  window.openIOSModal = function() {
+    const modal = document.getElementById('iosModal');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  };
+
+  window.closeIOSModal = function(event) {
+    const modal = document.getElementById('iosModal');
+    if (modal && (!event || event.target === modal || event.type === 'click')) {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  };
+
+  // ESC 键关闭对话框
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      window.closeIOSModal();
+    }
+  });
+});
+</script>
 
 <div style="text-align: center; margin-top: 4rem; padding: 2rem 0; border-top: 1px solid var(--vp-c-divider);">
   <p style="color: var(--vp-c-text-2); font-size: 0.9rem;">
