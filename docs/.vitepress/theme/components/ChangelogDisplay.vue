@@ -55,7 +55,7 @@ onMounted(async () => {
     }
     
     const data = await response.json();
-    versions.value = data.versions || [];
+    versions.value = data.versions || []; 
     lastUpdated.value = data.lastUpdated;
   } catch (err) {
     console.error('加载 changelog 失败:', err);
