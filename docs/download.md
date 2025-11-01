@@ -151,7 +151,7 @@
       <div class="platform-name">macOS 版本</div>
       <div class="version">2.6.5</div>
     </div>
-    <a href="https://ghfast.top/https://github.com/pwxiao/togother-docs/releases/download/v2.6.4/togother_macos_2.6.4.dmg" 
+    <a href="https://ghfast.top/https://github.com/pwxiao/togother-docs/releases/download/v2.6.5/togother_macos_2.6.5.dmg" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
