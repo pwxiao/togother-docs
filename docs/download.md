@@ -131,7 +131,7 @@
       <div class="platform-name">安卓版本</div>
       <div class="version">2.6.6</div>
     </div>
-    <a href="https://qiniuoss.autooj.cn/togother_android_arm64-v8a_2.6.6.apk" 
+    <a href="https://oss.autooj.cn/apps/togother_android_arm64-v8a_2.6.6.apk" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
@@ -159,7 +159,7 @@
   <div class="download-item ios-item">
     <div class="download-info">
       <div class="platform-name">iOS TestFlight</div>
-      <div class="version">2.6.2</div>
+      <div class="version">2.6.5</div>
     </div>
     <a href="https://testflight.apple.com/join/xk6vZNpD" 
        class="download-btn" 
