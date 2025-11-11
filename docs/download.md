@@ -131,7 +131,7 @@
       <div class="platform-name">安卓版本</div>
       <div class="version">2.6.7</div>
     </div>
-    <a href="https://down.togother.app/togother_android_arm64-v8a_2.6.7.apk" 
+    <a href="https://oss.togother.app/app-arm64-v8a-release.apk" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
