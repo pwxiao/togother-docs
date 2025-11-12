@@ -141,7 +141,7 @@
       <div class="platform-name">Windows 版本</div>
       <div class="version">2.6.8</div>
     </div>
-    <a href="https://oss.togother.app/releases/2.6.7/togother_windows_x64_2.6.8.exe" 
+    <a href="https://oss.togother.app/releases/2.6.8/togother_windows_x64_2.6.8.exe" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
