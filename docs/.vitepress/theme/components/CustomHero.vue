@@ -10,11 +10,13 @@
     
     <div class="hero-content">
       <div class="text-content">
+        <div class="hero-subtitle">
+          <span class="hero-subtitle-text">TOGOTHER</span>
+        </div>
         <h1 class="hero-title">
-          <span class="hero-name">一起看</span>
-          <span class="hero-text">Togother</span>
+          与朋友和家人同步观影<br>共享每一帧的惊喜
         </h1>
-        <p class="hero-tagline">与朋友和家人一起实时观看视频，共享欢乐时光</p>
+        <p class="hero-tagline">支持多平台与多种视频源，几秒内创建房间并邀请好友加入实时互动，一起看就是这么简单。</p>
         <div class="hero-actions">
           <a href="/desc" class="hero-button hero-button--primary">快速开始</a>
           <a href="/download" class="hero-button hero-button--secondary">下载应用</a>
@@ -42,11 +44,11 @@
 
 <style scoped>
 .custom-hero {
-  padding: 4rem 2rem;
+  padding: 6rem 2rem 4rem;
   background: white;
   min-height: 600px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   position: relative;
   overflow: hidden;
@@ -121,40 +123,40 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
   z-index: 1;
 }
 
 .text-content {
   text-align: left;
+  max-width: 600px;
+}
+
+.hero-subtitle {
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle-text {
+  color: #667eea;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
 
 .hero-title {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  line-height: 1.2;
-}
-
-.hero-name {
-  color: #2c3e50;
-  display: block;
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.hero-text {
-  color: #3498db;
-  display: block;
   font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+  color: #2c3e50;
 }
 
 .hero-tagline {
-  font-size: 1.25rem;
-  color: #5a6c7d;
-  margin-bottom: 2rem;
-  line-height: 1.6;
+  font-size: 1.125rem;
+  color: #6b7280;
+  margin-bottom: 2.5rem;
+  line-height: 1.7;
 }
 
 .hero-actions {
@@ -164,70 +166,43 @@
 }
 
 .hero-button {
-  padding: 0.75rem 2rem;
-  border-radius: 8px;
+  padding: 0.875rem 2rem;
+  border-radius: 50px;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
   display: inline-block;
+  font-size: 1rem;
 }
 
 .hero-button--primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #667eea;
   color: white;
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
   position: relative;
   overflow: hidden;
 }
 
-.hero-button--primary::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-  transition: left 0.5s;
-}
-
-.hero-button--primary:hover::before {
-  left: 100%;
-}
-
 .hero-button--primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
 }
 
 .hero-button--secondary {
   background: white;
-  color: #764ba2;
-  border: 2px solid #764ba2;
+  color: #667eea;
+  border: 2px solid #667eea;
   position: relative;
   overflow: hidden;
 }
 
-.hero-button--secondary::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(118, 75, 162, 0.1), transparent);
-  transition: left 0.5s;
-}
 
-.hero-button--secondary:hover::before {
-  left: 100%;
-}
 
 .hero-button--secondary:hover {
-  background: #764ba2;
+  background: #667eea;
   color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(118, 75, 162, 0.3);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
 }
 
 .hero-images {
@@ -235,7 +210,7 @@
   height: 500px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .phone-mockup {
@@ -251,7 +226,7 @@
   height: 600px;
   z-index: 2;
   transform: rotate(-5deg);
-  left: 0;
+  right: 80px;
 }
 
 .phone-mockup--secondary {
