@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 asides: false
 footer: false
 navbar: false
