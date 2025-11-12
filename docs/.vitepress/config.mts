@@ -106,6 +106,7 @@ export default defineConfig({
       text: '在 GitHub 上编辑此页面'
     },
 
+    returnToTopLabel: ' ',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
