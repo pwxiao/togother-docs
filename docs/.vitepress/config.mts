@@ -22,6 +22,7 @@ export default defineConfig({
 
   themeConfig: {
     logo: '/assets/logo.png',
+    // returnToTopLabel: '',
     
     // https://vitepress.dev/reference/default-theme-config
     nav: [
