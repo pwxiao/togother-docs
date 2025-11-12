@@ -42,11 +42,11 @@
 
 <style scoped>
 .custom-hero {
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   background: white;
-  min-height: 600px;
+  min-height: 500px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   position: relative;
   overflow: hidden;
@@ -130,104 +130,69 @@
   text-align: left;
 }
 
-.hero-title {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  line-height: 1.2;
-}
-
-.hero-name {
-  color: #2c3e50;
-  display: block;
-  font-size: 2.5rem;
+.hero-subtitle {
   margin-bottom: 0.5rem;
 }
 
-.hero-text {
-  color: #3498db;
-  display: block;
+.hero-subtitle-text {
+  color: #667eea;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.hero-title {
   font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+  color: #2c3e50;
 }
 
 .hero-tagline {
-  font-size: 1.25rem;
-  color: #5a6c7d;
+  font-size: 1.125rem;
+  color: #6b7280;
   margin-bottom: 2rem;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .hero-actions {
   display: flex;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .hero-button {
-  padding: 0.75rem 2rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 500;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   display: inline-block;
+  font-size: 0.95rem;
 }
 
 .hero-button--primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #667eea;
   color: white;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-  position: relative;
-  overflow: hidden;
-}
-
-.hero-button--primary::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-  transition: left 0.5s;
-}
-
-.hero-button--primary:hover::before {
-  left: 100%;
+  border: 1px solid #667eea;
 }
 
 .hero-button--primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+  background: #5a6fd8;
+  border-color: #5a6fd8;
 }
 
 .hero-button--secondary {
   background: white;
-  color: #764ba2;
-  border: 2px solid #764ba2;
-  position: relative;
-  overflow: hidden;
-}
-
-.hero-button--secondary::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(118, 75, 162, 0.1), transparent);
-  transition: left 0.5s;
-}
-
-.hero-button--secondary:hover::before {
-  left: 100%;
+  color: #667eea;
+  border: 1px solid #667eea;
 }
 
 .hero-button--secondary:hover {
-  background: #764ba2;
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(118, 75, 162, 0.3);
+  background: #f8fafc;
+  color: #5a6fd8;
+  border-color: #5a6fd8;
 }
 
 .hero-images {
