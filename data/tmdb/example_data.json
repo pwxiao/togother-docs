@@ -1,0 +1,53 @@
+{
+  "last_updated": "2024-01-01T08:00:00.000000",
+  "trending_movies": [
+    {
+      "id": 123456,
+      "title": "示例电影",
+      "overview": "这是一个示例电影的简介，展示数据结构。",
+      "poster_path": "/example_poster.jpg",
+      "backdrop_path": "/example_backdrop.jpg",
+      "release_date": "2024-01-01",
+      "vote_average": 8.5,
+      "vote_count": 1000,
+      "popularity": 123.456,
+      "genre_ids": [28, 12, 16],
+      "adult": false,
+      "video": false,
+      "original_language": "en",
+      "original_title": "Example Movie"
+    }
+  ],
+  "popular_movies": [],
+  "popular_tv_shows": [
+    {
+      "id": 789012,
+      "name": "示例电视剧",
+      "overview": "这是一个示例电视剧的简介。",
+      "poster_path": "/example_tv_poster.jpg",
+      "backdrop_path": "/example_tv_backdrop.jpg",
+      "first_air_date": "2024-01-01",
+      "vote_average": 9.0,
+      "vote_count": 2000,
+      "popularity": 200.789,
+      "genre_ids": [18, 10765],
+      "adult": false,
+      "origin_country": ["US"],
+      "original_language": "en",
+      "original_name": "Example TV Show"
+    }
+  ],
+  "upcoming_movies": [],
+  "chinese_movies": [],
+  "top_rated_movies": [],
+  "top_rated_tv_shows": [],
+  "stats": {
+    "trending_movies": 1,
+    "popular_movies": 0,
+    "popular_tv_shows": 1,
+    "upcoming_movies": 0,
+    "chinese_movies": 0,
+    "top_rated_movies": 0,
+    "top_rated_tv_shows": 0
+  }
+}
