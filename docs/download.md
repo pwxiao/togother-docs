@@ -129,9 +129,9 @@
   <div class="download-item">
     <div class="download-info">
       <div class="platform-name">安卓版本</div>
-      <div class="version">2.6.8</div>
+      <div class="version">2.6.9</div>
     </div>
-    <a href="https://oss.togother.app/releases/2.6.8/togother_android_arm64-v8a_2.6.8.apk" 
+    <a href="https://oss.togother.app/apps/2.6.9-app-arm64-v8a-release.apk" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
@@ -139,9 +139,9 @@
   <div class="download-item">
     <div class="download-info">
       <div class="platform-name">Windows 版本</div>
-      <div class="version">2.6.8</div>
+      <div class="version">2.6.9</div>
     </div>
-    <a href="https://oss.togother.app/releases/2.6.8/togother_windows_x64_2.6.8.exe" 
+    <a href="https://oss.togother.app/releases/2.6.9/togother_windows_x64_2.6.9.exe" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
@@ -149,9 +149,9 @@
   <div class="download-item">
     <div class="download-info">
       <div class="platform-name">macOS 版本</div>
-      <div class="version">2.6.8</div>
+      <div class="version">2.6.9</div>
     </div>
-    <a href="https://oss.togother.app/releases/2.6.8/togother_macos_2.6.8.dmg" 
+    <a href="https://oss.togother.app/releases/2.6.9/togother_macos_2.6.9.dmg" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
