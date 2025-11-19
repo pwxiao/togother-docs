@@ -159,7 +159,7 @@
   <div class="download-item ios-item">
     <div class="download-info">
       <div class="platform-name">iOS TestFlight</div>
-      <div class="version">2.6.7</div>
+      <div class="version">2.6.9</div>
     </div>
     <a href="https://testflight.apple.com/join/xk6vZNpD" 
        class="download-btn" 
