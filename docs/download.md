@@ -250,7 +250,7 @@
         iOS App Store
       </div>
       <div class="version">v2.7.0</div>
-      <div class="ios-note">正式版，推荐使用</div>
+      <div class="ios-note">正式版，查看教程手动激活全部功能</div>
     </div>
     <div class="button-group">
       <a href="https://apps.apple.com/us/app/一起看-异地同步观影神器/id6742242273" 
@@ -268,7 +268,7 @@
         iOS TestFlight
       </div>
       <div class="version">v2.7.0</div>
-      <div class="ios-note">测试版，体验最新功能</div>
+      <div class="ios-note">Testflight版</div>
     </div>
     <div class="button-group">
       <a href="https://testflight.apple.com/join/xk6vZNpD" 
