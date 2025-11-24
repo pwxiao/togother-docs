@@ -353,7 +353,7 @@ async function updateDownloadMd(versions) {
         iOS App Store
       </div>
       <div class="version">v${iosVersion}</div>
-      <div class="ios-note">正式版，推荐使用</div>
+      <div class="ios-note">正式版，查看教程手动激活全部功能</div>
     </div>
     <div class="button-group">
       <a href="https://apps.apple.com/us/app/一起看-异地同步观影神器/id6742242273" 
@@ -371,7 +371,7 @@ async function updateDownloadMd(versions) {
         iOS TestFlight
       </div>
       <div class="version">v${iosVersion}</div>
-      <div class="ios-note">测试版，体验最新功能</div>
+      <div class="ios-note">Testflight版</div>
     </div>
     <div class="button-group">
       <a href="https://testflight.apple.com/join/xk6vZNpD" 
@@ -442,14 +442,13 @@ async function generateChangelogJson(allVersions) {
   const changelogData = sortedVersions.map(versionData => {
     const { version, created_at, systems } = versionData;
     
-    // 合并所有系统的更新说明
-    const allDescriptions = Object.values(systems);
-    const description = allDescriptions.join('\n\n');
+    // 只显示 Android 端的更新说明
+    const description = systems.android || '';
     
     return {
       version,
       date: created_at,
-      description: description || '',
+      description: description,
       systems: systems
     };
   });
