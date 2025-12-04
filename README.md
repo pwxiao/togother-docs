@@ -86,9 +86,10 @@
 <div align="center">
   
 
-  <img src="docs/public/assets/screenshots/landscape1.png" alt="房间功能"  />
-  <img src="docs/public/assets/screenshots/combine1.jpg" alt="控制面板" />
-  <img src="docs/public/assets/screenshots/combine2.jpg" alt="控制面板" />
+  <img src="docs/public/assets/screenshots/landscape.png" alt="房间功能"  />
+  <img src="docs/public/assets/screenshots/combine4.jpg" alt="控制面板" />
+  <img src="docs/public/assets/screenshots/combine5.jpg" alt="控制面板" />
+  <img src="docs/public/assets/screenshots/combine6.jpg" alt="控制面板" />
   <!-- <img src="assets/screenshots/landscape (1).png" alt="播放界面" width="280" />
   <img src="assets/screenshots/landscape (2).png" alt="房间功能" width="280" />
   <img src="assets/screenshots/landscape (3).png" alt="控制面板" width="280" />
