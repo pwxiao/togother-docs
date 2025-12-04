@@ -40,6 +40,42 @@
 
 ---
 
+
+## 📸 应用截图
+
+
+<div align="center">
+  
+
+  <img src="docs/public/assets/screenshots/landscape2.png" alt="房间功能"  />
+  <img src="docs/public/assets/screenshots/combine4.jpg" alt="控制面板" />
+  <img src="docs/public/assets/screenshots/combine6.jpg" alt="控制面板" />
+  <img src="docs/public/assets/screenshots/combine5.jpg" alt="控制面板" />
+
+  <!-- <img src="assets/screenshots/landscape (1).png" alt="播放界面" width="280" />
+  <img src="assets/screenshots/landscape (2).png" alt="房间功能" width="280" />
+  <img src="assets/screenshots/landscape (3).png" alt="控制面板" width="280" />
+   -->
+
+<!--   
+  <img src="assets/screenshots/protrait (1).jpg" alt="首页" width="160" />
+  <img src="assets/screenshots/protrait (2).jpg" alt="搜索" width="160" />
+  <img src="assets/screenshots/protrait (3).jpg" alt="播放" width="160" />
+  <img src="assets/screenshots/protrait (4).jpg" alt="房间" width="160" />
+  
+  <img src="assets/screenshots/protrait (5).jpg" alt="视频源" width="160" />
+  <img src="assets/screenshots/protrait (6).jpg" alt="Emby" width="160" />
+  <img src="assets/screenshots/protrait (7).jpg" alt="收藏" width="160" />
+  <img src="assets/screenshots/protrait (9).jpg" alt="设置" width="160" />
+  <img src="assets/screenshots/protrait (10).jpg" alt="直播" width="160" />
+  <img src="assets/screenshots/protrait (11).jpg" alt="嗅探" width="160" />
+   -->
+</div>
+
+
+---
+
+
 ## ✨ 核心功能
 
 ### 🎥 同步观影体验
@@ -77,40 +113,6 @@
 - **⭐ 影片收藏** - 云端收藏喜爱的影片，随时随地观看
 - **📊 观看历史** - 自动记录观看进度，无缝续播
 - **☁️ 云端同步** - 收藏跨设备同步
-
----
-
-## 📸 应用截图
-
-
-<div align="center">
-  
-
-  <img src="docs/public/assets/screenshots/landscape2.png" alt="房间功能"  />
-  <img src="docs/public/assets/screenshots/combine4.jpg" alt="控制面板" />
-  <img src="docs/public/assets/screenshots/combine6.jpg" alt="控制面板" />
-  <img src="docs/public/assets/screenshots/combine5.jpg" alt="控制面板" />
-
-  <!-- <img src="assets/screenshots/landscape (1).png" alt="播放界面" width="280" />
-  <img src="assets/screenshots/landscape (2).png" alt="房间功能" width="280" />
-  <img src="assets/screenshots/landscape (3).png" alt="控制面板" width="280" />
-   -->
-
-<!--   
-  <img src="assets/screenshots/protrait (1).jpg" alt="首页" width="160" />
-  <img src="assets/screenshots/protrait (2).jpg" alt="搜索" width="160" />
-  <img src="assets/screenshots/protrait (3).jpg" alt="播放" width="160" />
-  <img src="assets/screenshots/protrait (4).jpg" alt="房间" width="160" />
-  
-  <img src="assets/screenshots/protrait (5).jpg" alt="视频源" width="160" />
-  <img src="assets/screenshots/protrait (6).jpg" alt="Emby" width="160" />
-  <img src="assets/screenshots/protrait (7).jpg" alt="收藏" width="160" />
-  <img src="assets/screenshots/protrait (9).jpg" alt="设置" width="160" />
-  <img src="assets/screenshots/protrait (10).jpg" alt="直播" width="160" />
-  <img src="assets/screenshots/protrait (11).jpg" alt="嗅探" width="160" />
-   -->
-</div>
-
 
 ---
 
