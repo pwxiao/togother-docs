@@ -212,7 +212,7 @@
       </div>
       <div class="version">v2.7.2</div>
     </div>
-    <a href="https://oss.ahhl.cn/togother_android_arm64-v8a_2.7.2.apk" 
+    <a href="https://sfmodels.qnaigc.com/test/togother_android_arm64-v8a_2.7.2.apk" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
