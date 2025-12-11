@@ -4,6 +4,7 @@ import { h } from 'vue'
 import ChangelogDisplay from './components/ChangelogDisplay.vue'
 import DownloadPage from './components/DownloadPage.vue'
 import CustomHero from './components/CustomHero.vue'
+import AnnualReportTest from './components/AnnualReportTest.vue'
 
 
 
@@ -20,6 +21,7 @@ const theme: Theme = {
     app.component('ChangelogDisplay', ChangelogDisplay)
     app.component('DownloadPage', DownloadPage)
     app.component('CustomHero', CustomHero)
+    app.component('AnnualReportTest', AnnualReportTest)
   }
 }
 
