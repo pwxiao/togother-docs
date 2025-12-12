@@ -210,9 +210,9 @@
         <span class="platform-icon">🤖</span>
         安卓版本
       </div>
-      <div class="version">v2.7.2</div>
+      <div class="version">v2.7.3</div>
     </div>
-    <a href="https://sfmodels.qnaigc.com/test/togother_android_arm64-v8a_2.7.2.apk" 
+    <a href="https://sfmodels.qnaigc.com/test/togother_android_arm64-v8a_2.7.3.apk" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
@@ -223,9 +223,9 @@
         <span class="platform-icon">🪟</span>
         Windows 版本
       </div>
-      <div class="version">v2.7.2</div>
+      <div class="version">v2.7.3</div>
     </div>
-    <a href="https://oss.togother.app/releases/2.7.2/togother_windows_x64_2.7.2.exe" 
+    <a href="https://oss.togother.app/releases/2.7.3/togother_windows_x64_2.7.3.exe" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
@@ -236,9 +236,9 @@
         <span class="platform-icon">🍎</span>
         macOS 版本
       </div>
-      <div class="version">v2.7.2</div>
+      <div class="version">v2.7.3</div>
     </div>
-    <a href="https://oss.togother.app/releases/2.7.2/togother_macos_2.7.2.dmg" 
+    <a href="https://oss.togother.app/releases/2.7.3/togother_macos_2.7.3.dmg" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
