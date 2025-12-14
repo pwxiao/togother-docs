@@ -249,7 +249,7 @@
         <span class="platform-icon">📱</span>
         iOS App Store
       </div>
-      <div class="version">v2.7.3</div>
+      <div class="version">v2.7.2</div>
       <div class="ios-note">正式版，查看教程手动激活全部功能</div>
     </div>
     <div class="button-group">
@@ -267,7 +267,7 @@
         <span class="platform-icon">✈️</span>
         iOS TestFlight
       </div>
-      <div class="version">v2.7.3</div>
+      <div class="version">v2.7.2</div>
       <div class="ios-note">Testflight版</div>
     </div>
     <div class="button-group">
