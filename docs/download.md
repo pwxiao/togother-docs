@@ -236,9 +236,9 @@
         <span class="platform-icon">🍎</span>
         macOS 版本
       </div>
-      <div class="version">v2.7.3</div>
+      <div class="version">v2.7.4</div>
     </div>
-    <a href="https://oss.togother.app/releases/2.7.3/togother_macos_2.7.3.dmg" 
+    <a href="https://oss.togother.app/releases/2.7.4/togother_macos_2.7.4.dmg" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
