@@ -223,9 +223,9 @@
         <span class="platform-icon">🪟</span>
         Windows 版本
       </div>
-      <div class="version">v2.7.3</div>
+      <div class="version">v2.7.4</div>
     </div>
-    <a href="https://oss.togother.app/releases/2.7.3/togother_windows_x64_2.7.3.exe" 
+    <a href="https://oss.togother.app/releases/2.7.4/togother_windows_x64_2.7.4.exe" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
