@@ -210,9 +210,9 @@
         <span class="platform-icon">🤖</span>
         安卓版本
       </div>
-      <div class="version">v2.7.5</div>
+      <div class="version">v2.7.6</div>
     </div>
-    <a href="https://sfmodels.qnaigc.com/test/togother_android_arm64-v8a_2.7.5.apk" 
+    <a href="https://sfmodels.qnaigc.com/test/togother-2-7-5-app-arm64-v8a-release.apk" 
        class="download-btn" 
        target="_blank">立即下载</a>
   </div>
@@ -249,7 +249,7 @@
         <span class="platform-icon">📱</span>
         iOS App Store
       </div>
-      <div class="version">v2.7.3</div>
+      <div class="version">v2.7.5</div>
       <div class="ios-note">正式版，查看教程手动激活全部功能</div>
     </div>
     <div class="button-group">
@@ -267,7 +267,7 @@
         <span class="platform-icon">✈️</span>
         iOS TestFlight
       </div>
-      <div class="version">v2.7.3</div>
+      <div class="version">v2.7.5</div>
       <div class="ios-note">Testflight版</div>
     </div>
     <div class="button-group">
