@@ -40,7 +40,6 @@ export default defineConfig({
         items: [
           { text: '简介', link: '/desc' },
           { text: '快速开始', link: '/guide/getting-started' },
-          { text: '导入视频源', link: '/guide/import_source' },
           {
             text: '进阶功能',
             items: [
