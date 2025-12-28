@@ -21,17 +21,6 @@
 3. 输入搜索引擎的名称和API地址
 4. 点击"保存"完成添加
 
-## 推荐的搜索引擎
-
-以下是一些可以使用的搜索引擎API地址：
-
-| 引擎名称 | API地址 | 状态 |
-|---------|---------|------|
-| 酷云77 | `https://api.kunyu77.com/api.php/provide/vod/at/json` | 可用 |
-| 快看资源 | `https://kuaikan-api.com/api.php/provide/vod/at/json` | 可用 |
-| 红牛资源 | `https://www.hongniuzy2.com/api.php/provide/vod/at/json` | 可用 |
-| OK资源 | `https://www.okzy.co/api.php/provide/vod/at/json` | 可用 |
-| 量子资源 | `https://cj.lziapi.com/api.php/provide/vod/at/json` | 可用 |
 
 ::: warning 免责声明
 以上列出的API仅作参考，其可用性可能随时变化。我们不对这些第三方API的内容负责，使用时请遵守相关法律法规。
